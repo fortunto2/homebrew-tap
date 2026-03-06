@@ -19,6 +19,7 @@ class RustCode < Formula
   end
 
   depends_on "tmux"
+  depends_on "ripgrep"
 
   def install
     bin.install "rust-code"
