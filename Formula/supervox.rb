@@ -1,13 +1,13 @@
 class Supervox < Formula
   desc "Voice-powered productivity TUI — live call assistant + post-call analysis + agent chat"
   homepage "https://github.com/fortunto2/supervox"
-  version "0.7.1"
+  version "0.7.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fortunto2/supervox/releases/download/v0.7.1/supervox-aarch64-apple-darwin.tar.gz"
-      sha256 "b6487b0e1040be98d6393094eb2b2d6477169c79fffb7d9abac9b4efa329ee35"
+      url "https://github.com/fortunto2/supervox/releases/download/v0.7.2/supervox-aarch64-apple-darwin.tar.gz"
+      sha256 "6d71dba8ee60a1f68c1d0f41ccc711206c1d280b916afebe4c2e1e5e868e3940"
     end
   end
 
@@ -16,6 +16,6 @@ class Supervox < Formula
   end
 
   test do
-    assert_match "supervox 0.7.1", shell_output("#{bin}/supervox --version")
+    assert_match "supervox 0.7.2", shell_output("#{bin}/supervox --version")
   end
 end
