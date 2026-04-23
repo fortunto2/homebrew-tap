@@ -1,13 +1,13 @@
 class RustSynth < Formula
   desc "Terminal modular ambient synth — FunDSP + Ratatui, Euclidean drum machine, Game of Life coupling"
   homepage "https://github.com/fortunto2/rust-synth"
-  version "0.18.0"
+  version "0.18.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fortunto2/rust-synth/releases/download/v0.18.0/rust-synth-v0.18.0-aarch64-apple-darwin.tar.gz"
-      sha256 "62e8f5fd16db7d825f38bfe1528e33e7f879a5ea9c2ae1a5f1ccad11af241cd6"
+      url "https://github.com/fortunto2/rust-synth/releases/download/v0.18.1/rust-synth-v0.18.1-aarch64-apple-darwin.tar.gz"
+      sha256 "0478e256ec7f756d98d59a88378d236b3580d609e11afbb8001b317bf4e8602f"
     end
   end
 
