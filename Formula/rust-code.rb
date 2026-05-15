@@ -1,20 +1,20 @@
 class RustCode < Formula
   desc "AI-powered terminal coding agent written in Rust"
   homepage "https://github.com/fortunto2/rust-code"
-  version "0.6.2"
+  version "0.6.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fortunto2/rust-code/releases/download/v0.6.2/rust-code-macos-aarch64.tar.gz"
-      sha256 "34d7e3b95f0c89bae1e442665780719c6264602dd55677bc5a4634a9ab4a9abc"
+      url "https://github.com/fortunto2/rust-code/releases/download/v0.6.3/rust-code-macos-aarch64.tar.gz"
+      sha256 "3659a25e5574b881e93bbc11255ea59741e21cb923449018f6de94a3f377b27f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/fortunto2/rust-code/releases/download/v0.6.2/rust-code-linux-x86_64.tar.gz"
-      sha256 "5a34dc6eedd44615d4705eb0c37e60c47b252644bbd57a8f582731854ab5947b"
+      url "https://github.com/fortunto2/rust-code/releases/download/v0.6.3/rust-code-linux-x86_64.tar.gz"
+      sha256 "4febadff1311a4de6aeef1852b5bc2bed8c495ef3cc07ca7ecdb54984392ee21"
     end
   end
 
