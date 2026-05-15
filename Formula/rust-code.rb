@@ -7,7 +7,7 @@ class RustCode < Formula
   on_macos do
     on_arm do
       url "https://github.com/fortunto2/rust-code/releases/download/v0.6.2/rust-code-macos-aarch64.tar.gz"
-      sha256 "PLACEHOLDER_UPDATE_AFTER_MAC_BUILD"
+      sha256 "34d7e3b95f0c89bae1e442665780719c6264602dd55677bc5a4634a9ab4a9abc"
     end
   end
 
