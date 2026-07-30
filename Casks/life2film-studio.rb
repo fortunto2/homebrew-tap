@@ -8,7 +8,7 @@ cask "life2film-studio" do
   desc "Desktop video analyser and montage builder, runs entirely on your machine"
   homepage "https://life2film.com/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch: :arm64
 
   app "Life2Film Studio.app"
