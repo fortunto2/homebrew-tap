@@ -13,6 +13,7 @@ brew tap fortunto2/tap
 | package | description | install |
 |---------|-------------|---------|
 | [rust-synth](https://github.com/fortunto2/rust-synth) | Terminal modular ambient synth | `brew install rust-synth` |
+| [screenshield](https://github.com/fortunto2/screenshield) | DLP for video: blur secrets on screens and streams, watch code, catch QR phishing | `brew install screenshield` |
 
 ### Casks (prebuilt macOS apps)
 
