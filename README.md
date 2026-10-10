@@ -6,6 +6,7 @@ Personal Homebrew tap for [@fortunto2](https://github.com/fortunto2) tools.
 
 ```sh
 brew tap fortunto2/tap
+brew trust fortunto2/tap   # Homebrew 7+ asks before loading formulae from a third-party tap
 ```
 
 ### Formulae
