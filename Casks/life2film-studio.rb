@@ -1,9 +1,8 @@
 cask "life2film-studio" do
-  version "0.1.1"
-  sha256 "f3498de0b3e1df0719069a69da993b1040383ede695b636987e00e3dfcbe749a"
+  version "0.2.0"
+  sha256 "fa61223d5ee702cd4a63da8c5ed217e8afbf621cee6826c7d8d590c49a3b8a77"
 
-  url "https://github.com/fortunto2/life2film-landing/releases/download/desktop-v#{version}/Life2FilmStudio.dmg",
-      verified: "github.com/fortunto2/life2film-landing/"
+  url "https://github.com/fortunto2/life2film-landing/releases/download/desktop-v#{version}/Life2FilmStudio.dmg"
   name "Life2Film Studio"
   desc "Desktop video analyser and montage builder, runs entirely on your machine"
   homepage "https://life2film.com/"
