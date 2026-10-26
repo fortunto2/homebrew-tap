@@ -1,9 +1,9 @@
 class Airq < Formula
-  desc "CLI air quality checker — any city, Open-Meteo + Sensor.Community"
-  homepage "https://github.com/fortunto2/airq"
-  url "https://github.com/fortunto2/airq/archive/refs/tags/v2.1.0.tar.gz"
-  sha256 "26280e93581b2657bf0e56a629284c9b4bf8bea8a2bf61ce4ad9514dcc72f6c2"
-  license "MIT"
+  desc "Air quality CLI: any city, Sensor.Community + Open-Meteo merge, EPA NowCast"
+  homepage "https://rustman.org/projects/project-airq/"
+  url "https://github.com/fortunto2/airq/archive/refs/tags/v2.2.0.tar.gz"
+  sha256 "50252fd8c77a7f4b424329bc59b81187034fc0b856eca2ac2240e7aaf144268c"
+  license "AGPL-3.0-or-later"
 
   depends_on "rust" => :build
 
