@@ -1,6 +1,6 @@
 cask "life2film-studio" do
-  version "0.4.1"
-  sha256 "b9d7c1e18b6f87909c68ad349b7809190aa1522f84a48dd3eb66400f3712e56b"
+  version "0.4.2"
+  sha256 "817af1209562a38b5fe4600a296a9938fdac66ad09727d9f38ceb09b0cd8eb7c"
 
   url "https://github.com/fortunto2/life2film-landing/releases/download/desktop-v#{version}/Life2FilmStudio.dmg"
   name "Life2Film Studio"
